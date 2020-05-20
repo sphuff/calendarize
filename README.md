@@ -1,11 +1,11 @@
 # Calendarize
 
-**TODO: Add description**
+A tiny utility library that generates a calendar array given a Date or DateTime. Is helpful for quickly creating calendar views - you just need to add the view part.
+All credit goes to the Javascript [calendarize](https://github.com/lukeed/calendarize) package.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `calendarize` to your list of dependencies in `mix.exs`:
+The package can be installed by adding `calendarize` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -15,9 +15,11 @@ def deps do
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/calendarize](https://hexdocs.pm/calendarize).
+and installing with `mix deps.get`
+
+## Documentation
+
+Hosted at [https://hexdocs.pm/calendarize](https://hexdocs.pm/calendarize).
 
 ## Usage
 ```
